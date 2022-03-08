@@ -12,7 +12,7 @@ class AlertDialogCustom extends StatefulWidget {
 class _AlertDialogCustomState extends State<AlertDialogCustom> {
   @override
   Widget build(BuildContext context) {
-    return TextButton(
+    return ElevatedButton(
       onPressed: () => showDialog<String>(
         context: context,
         builder: (BuildContext context) => AlertDialog(
